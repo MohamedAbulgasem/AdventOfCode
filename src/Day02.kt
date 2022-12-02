@@ -1,9 +1,17 @@
 fun main() {
-    fun part1(input: List<String>): Int =
-        computeScore(input) { it[2].mapToScoreValue() }
+    fun part1(input: List<String>): Int = input.sumOf {
+        getRoundScore(
+            opponentPlay = it[0].mapToScoreValue(),
+            myPlay = it[2].mapToScoreValue()
+        )
+    }
 
-    fun part2(input: List<String>): Int =
-        computeScore(input, ::workOutMyPlay)
+    fun part2(input: List<String>): Int = input.sumOf {
+        getRoundScore(
+            opponentPlay = it[0].mapToScoreValue(),
+            myPlay = workOutMyPlay(it[0], it[2])
+        )
+    }
 
     val dayId = "02"
     // Test
@@ -15,17 +23,6 @@ fun main() {
     val input = readInput("Day${dayId}")
     println(part1(input))
     println(part2(input))
-}
-
-private fun computeScore(input: List<String>, myPlay: (String) -> Int): Int {
-    var score = 0
-    input.forEach {
-        score += getRoundScore(
-            opponentPlay = it[0].mapToScoreValue(),
-            myPlay = myPlay(it)
-        )
-    }
-    return score
 }
 
 private fun getRoundScore(opponentPlay: Int, myPlay: Int): Int {
@@ -51,26 +48,23 @@ private fun Char.mapToScoreValue(): Int = when (this) {
     else -> 3
 }
 
-private fun workOutMyPlay(roundInput: String): Int {
-    val opponentPlay = roundInput[0]
-    val expectedResult = roundInput[2]
-    return when (expectedResult) {
-        'X' -> when (opponentPlay) {
-            'A' -> 3
-            'B' -> 1
-            else -> 2
-        }
-
-        'Y' -> when (opponentPlay) {
-            'A' -> 1
-            'B' -> 2
-            else -> 3
-        }
-
-        else -> when (opponentPlay) {
-            'A' -> 2
-            'B' -> 3
-            else -> 1
-        }
+private fun workOutMyPlay(
+    opponentPlay: Char,
+    expectedResult: Char
+): Int = when (expectedResult) {
+    'X' -> when (opponentPlay) {
+        'A' -> 3
+        'B' -> 1
+        else -> 2
+    }
+    'Y' -> when (opponentPlay) {
+        'A' -> 1
+        'B' -> 2
+        else -> 3
+    }
+    else -> when (opponentPlay) {
+        'A' -> 2
+        'B' -> 3
+        else -> 1
     }
 }
