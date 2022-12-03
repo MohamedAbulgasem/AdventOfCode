@@ -1,3 +1,6 @@
+/** [Puzzle]( https://adventofcode.com/2022/day/3 ) */
+private const val DAY = "03"
+
 fun main() {
     fun part1(input: List<String>): Int = input
         .map {
@@ -23,14 +26,13 @@ fun main() {
                 .priority
         }
 
-    val dayId = "03"
     // Test
-    val testInput = readInput("Day${dayId}_test")
+    val testInput = readInput("Day${DAY}_test")
     check(part1(testInput) == 157)
     check(part2(testInput) == 70)
 
     // Result
-    val input = readInput("Day${dayId}")
+    val input = readInput("Day${DAY}")
     println(part1(input))
     println(part2(input))
 }

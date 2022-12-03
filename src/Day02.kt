@@ -1,3 +1,6 @@
+/** [Puzzle]( https://adventofcode.com/2022/day/2 ) */
+private const val DAY = "02"
+
 fun main() {
     fun part1(input: List<String>): Int = input.sumOf {
         getRoundScore(
@@ -13,14 +16,13 @@ fun main() {
         )
     }
 
-    val dayId = "02"
     // Test
-    val testInput = readInput("Day${dayId}_test")
+    val testInput = readInput("Day${DAY}_test")
     check(part1(testInput) == 15)
     check(part2(testInput) == 12)
 
     // Result
-    val input = readInput("Day${dayId}")
+    val input = readInput("Day${DAY}")
     println(part1(input))
     println(part2(input))
 }

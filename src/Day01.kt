@@ -1,3 +1,6 @@
+/** [Puzzle]( https://adventofcode.com/2022/day/1 ) */
+private const val DAY = "01"
+
 fun main() {
     fun part1(input: List<String>): Int =
         getCalCountByElf(input).max()
@@ -8,14 +11,13 @@ fun main() {
             .take(3)
             .sum()
 
-    val dayId = "01"
     // Test
-    val testInput = readInput("Day${dayId}_test")
+    val testInput = readInput("Day${DAY}_test")
     check(part1(testInput) == 24000)
     check(part2(testInput) == 45000)
 
     // Result
-    val input = readInput("Day${dayId}")
+    val input = readInput("Day${DAY}")
     println(part1(input))
     println(part2(input))
 }

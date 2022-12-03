@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df4c3757-eadd-48c8-a641-0d625fc3af62" name="Changes" comment="Day 2">
-      <change afterPath="$PROJECT_DIR$/src/Day03.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day03.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day03_test.txt" afterDir="false" />
+    <list default="true" id="df4c3757-eadd-48c8-a641-0d625fc3af62" name="Changes" comment="Day 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day01.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day01.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day02.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day02.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day03.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day03.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DayX.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/DayX.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,8 +113,8 @@
         <item itemvalue="Kotlin.Day03Kt" />
         <item itemvalue="Kotlin.Day02Kt" />
         <item itemvalue="Kotlin.Day01Kt (1)" />
-        <item itemvalue="Kotlin.Day01Kt" />
         <item itemvalue="Kotlin.DayXKt" />
+        <item itemvalue="Kotlin.Day01Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670017787186</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Day 3">
+      <created>1670054158345</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670054158345</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +165,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Day 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 2" />
+    <MESSAGE value="Day 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 3" />
   </component>
 </project>
