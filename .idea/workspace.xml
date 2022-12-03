@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df4c3757-eadd-48c8-a641-0d625fc3af62" name="Changes" comment="Add puzzle links">
-      <change afterPath="$PROJECT_DIR$/src/day_02/Puzzle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day_03/Input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day_03/Input_test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day_03/Puzzle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day_XX/Input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day_XX/Input_test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day_XX/Puzzle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day01.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day_01/Puzzle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day_01/Input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day01_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day_01/Input_test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day02.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day02.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day02_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day03.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day03.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day03_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DayX.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DayX.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day_02/Input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DayX_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day_02/Input_test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils.kt" afterDir="false" />
-    </list>
+    <list default="true" id="df4c3757-eadd-48c8-a641-0d625fc3af62" name="Changes" comment="Update template" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670055275152</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update template">
+      <created>1670062512607</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670062512607</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +178,7 @@
     <MESSAGE value="Day 2" />
     <MESSAGE value="Day 3" />
     <MESSAGE value="Add puzzle links" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add puzzle links" />
+    <MESSAGE value="Update template" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update template" />
   </component>
 </project>
