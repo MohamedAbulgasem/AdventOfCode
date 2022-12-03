@@ -1,7 +1,6 @@
 package day_02
 
 import readInput
-import readTestInput
 
 /** [Puzzle](https://adventofcode.com/2022/day/2) */
 private const val DAY = "02"
@@ -22,7 +21,7 @@ fun main() {
     }
 
     // Test
-    val testInput = readTestInput(DAY)
+    val testInput = readInput(DAY, testInput = true)
     check(part1(testInput) == 15) { "Part 1 failed!" }
     check(part2(testInput) == 12) { "Part 2 failed!" }
 

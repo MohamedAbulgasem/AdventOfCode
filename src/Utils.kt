@@ -3,12 +3,14 @@ import java.math.BigInteger
 import java.security.MessageDigest
 
 /** Reads lines from the input txt file. */
-fun readInput(day: String): List<String> =
-    File("src/day_$day", "Input.txt").readLines()
-
-/** Reads lines from the test input txt file. */
-fun readTestInput(day: String): List<String> =
-    File("src/day_$day", "Input_test.txt").readLines()
+fun readInput(
+    day: String,
+    testInput: Boolean = false
+): List<String> {
+    val dir = "src/day_$day"
+    val file = if (testInput) "Input_test.txt" else "Input.txt"
+    return File(dir, file).readLines()
+}
 
 /** Converts string to md5 hash. */
 fun String.md5() = BigInteger(1, MessageDigest.getInstance("MD5")
