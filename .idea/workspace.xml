@@ -4,12 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df4c3757-eadd-48c8-a641-0d625fc3af62" name="Changes" comment="Day 3">
+    <list default="true" id="df4c3757-eadd-48c8-a641-0d625fc3af62" name="Changes" comment="Add puzzle links">
+      <change afterPath="$PROJECT_DIR$/src/day_02/Puzzle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_03/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_03/Input_test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_03/Puzzle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_XX/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_XX/Input_test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_XX/Puzzle.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day01.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day01.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day02.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day02.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day03.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day03.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DayX.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/DayX.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day01.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day_01/Puzzle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day_01/Input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day01_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day_01/Input_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day02.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day02_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day03.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day03_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DayX.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DayX.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day_02/Input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DayX_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day_02/Input_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +55,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/mohamed/Desktop/Workplaces/AdventOfCode2022/src"
+    "last_opened_file_path": "/Users/mohamed/Desktop/Workplaces/AdventOfCode2022/src/util",
+    "settings.editor.selected.configurable": "Errors"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/util" />
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/day_01" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/day_01" />
@@ -52,37 +71,37 @@
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Day03Kt">
-    <configuration name="Day01Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day01Kt" />
+  <component name="RunManager" selected="Kotlin.PuzzleKt (3)">
+    <configuration name="PuzzleKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PuzzleKt" />
       <module name="Advent_Of_Code_2022.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day01Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day_01.Day01Kt" />
+    <configuration name="PuzzleKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day_02.PuzzleKt" />
       <module name="Advent_Of_Code_2022.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day02Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day02Kt" />
+    <configuration name="PuzzleKt (3)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day_03.PuzzleKt" />
       <module name="Advent_Of_Code_2022.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day03Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day03Kt" />
+    <configuration name="PuzzleKt (4)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day_XX.PuzzleKt" />
       <module name="Advent_Of_Code_2022.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DayXKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DayXKt" />
+    <configuration name="PuzzleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day_01.PuzzleKt" />
       <module name="Advent_Of_Code_2022.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,19 +121,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.Day01Kt" />
-      <item itemvalue="Kotlin.Day01Kt (1)" />
-      <item itemvalue="Kotlin.Day02Kt" />
-      <item itemvalue="Kotlin.Day03Kt" />
-      <item itemvalue="Kotlin.DayXKt" />
+      <item itemvalue="Kotlin.PuzzleKt" />
+      <item itemvalue="Kotlin.PuzzleKt (1)" />
+      <item itemvalue="Kotlin.PuzzleKt (2)" />
+      <item itemvalue="Kotlin.PuzzleKt (3)" />
+      <item itemvalue="Kotlin.PuzzleKt (4)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Day03Kt" />
-        <item itemvalue="Kotlin.Day02Kt" />
-        <item itemvalue="Kotlin.Day01Kt (1)" />
-        <item itemvalue="Kotlin.DayXKt" />
-        <item itemvalue="Kotlin.Day01Kt" />
+        <item itemvalue="Kotlin.PuzzleKt (3)" />
+        <item itemvalue="Kotlin.PuzzleKt (2)" />
+        <item itemvalue="Kotlin.PuzzleKt" />
+        <item itemvalue="Kotlin.PuzzleKt (4)" />
+        <item itemvalue="Kotlin.PuzzleKt (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670054158345</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add puzzle links">
+      <created>1670055275152</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670055275152</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +192,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Day 2" />
     <MESSAGE value="Day 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 3" />
+    <MESSAGE value="Add puzzle links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add puzzle links" />
   </component>
 </project>

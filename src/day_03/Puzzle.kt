@@ -1,4 +1,9 @@
-/** [Puzzle]( https://adventofcode.com/2022/day/3 ) */
+package day_03
+
+import readInput
+import readTestInput
+
+/** [Puzzle](https://adventofcode.com/2022/day/3) */
 private const val DAY = "03"
 
 fun main() {
@@ -27,12 +32,12 @@ fun main() {
         }
 
     // Test
-    val testInput = readInput("Day${DAY}_test")
-    check(part1(testInput) == 157)
-    check(part2(testInput) == 70)
+    val testInput = readTestInput(DAY)
+    check(part1(testInput) == 157) { "Part 1 failed!" }
+    check(part2(testInput) == 70) { "Part 2 failed!" }
 
     // Result
-    val input = readInput("Day${DAY}")
+    val input = readInput(DAY)
     println(part1(input))
     println(part2(input))
 }
