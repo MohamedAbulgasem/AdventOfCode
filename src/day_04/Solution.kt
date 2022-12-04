@@ -19,15 +19,15 @@ fun main() {
             pair.first overlaps pair.second
         }
 
-// Test
-val testInput = readInput(DAY, testInput = true)
-check(part1(testInput) == 2) { "Part 1 failed!" }
-check(part2(testInput) == 4) { "Part 2 failed!" }
+    // Test
+    val testInput = readInput(DAY, testInput = true)
+    check(part1(testInput) == 2) { "Part 1 failed!" }
+    check(part2(testInput) == 4) { "Part 2 failed!" }
 
-// Result
-val input = readInput(DAY)
-println(part1(input))
-println(part2(input))
+    // Result
+    val input = readInput(DAY)
+    println(part1(input))
+    println(part2(input))
 }
 
 private fun List<String>.mapToRangePair() = map {
