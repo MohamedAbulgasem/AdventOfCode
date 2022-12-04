@@ -8,16 +8,13 @@ private const val DAY = "04"
 fun main() {
     fun part1(input: List<String>): Int = input
         .mapToRangePair()
-        .count { pair ->
-            pair.first contains pair.second ||
-            pair.second contains pair.first
+        .count { (first, second) ->
+            first contains second || second contains first
         }
 
     fun part2(input: List<String>): Int = input
         .mapToRangePair()
-        .count { pair ->
-            pair.first overlaps pair.second
-        }
+        .count { (first, second) -> first overlaps second }
 
     // Test
     val testInput = readInput(DAY, testInput = true)
