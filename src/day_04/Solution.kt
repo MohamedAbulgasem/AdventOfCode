@@ -38,9 +38,7 @@ private fun List<String>.mapToRangePair() = map {
 
 private data class Range(val start: Int, val end: Int) {
 
-    constructor(
-        range: String
-    ) : this(
+    constructor(range: String) : this(
         start = range.split("-").first().toInt(),
         end = range.split("-").last().toInt()
     )
