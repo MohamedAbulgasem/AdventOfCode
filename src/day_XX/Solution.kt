@@ -6,17 +6,23 @@ import readInput
 private const val DAY = "XX"
 
 fun main() {
-    fun part1(input: List<String>): Int = 0
+    fun part1(input: List<String>): Int {
 
-    fun part2(input: List<String>): Int = 0
+        return input.size
+    }
+
+    fun part2(input: List<String>): Int {
+
+        return input.size
+    }
 
     // Test
     val testInput = readInput(DAY, testInput = true)
     check(part1(testInput) == 0) { "Part 1 failed!" }
-    check(part2(testInput) == 0) { "Part 2 failed!" }
+    //check(part2(testInput) == 0) { "Part 2 failed!" }
 
     // Result
     val input = readInput(DAY)
     println(part1(input))
-    println(part2(input))
+    //println(part2(input))
 }
