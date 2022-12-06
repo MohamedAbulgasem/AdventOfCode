@@ -27,12 +27,11 @@ private fun List<String>.findMarkerPosition(numOfChars: Int): Int {
     val chars = first().toCharArray()
     var markerPosition = 0
     for (i in chars.indices) {
-        if (i + numOfChars > chars.lastIndex) break
-        val set = HashSet<Char>().apply {
-            repeat(numOfChars) { count -> add(chars[i + count]) }
-        }
-        if (set.size == numOfChars) {
-            markerPosition = i + numOfChars
+        val position = i + numOfChars
+        if (position > chars.lastIndex) break
+        val charGroup = chars.sliceArray(i until position).toSet()
+        if (charGroup.size == numOfChars) {
+            markerPosition = position
             break
         }
     }
