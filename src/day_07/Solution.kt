@@ -13,9 +13,12 @@ fun main() {
 
     fun part2(input: List<String>): Int = input
         .mapToDirs()
-        .filter {
-            val sizeAfter = input.totalSize - it.size
-            70000000 - sizeAfter >= 30000000
+        .run {
+            val totalSize = first().size
+            filter {
+                val sizeAfter = totalSize - it.size
+                70000000 - sizeAfter >= 30000000
+            }
         }
         .minOf { it.size }
 
@@ -76,6 +79,3 @@ private fun List<String>.mapToDirs(): List<Dir> {
     }
     return root.listAllDirs()
 }
-
-private val List<String>.totalSize: Int
-    get() = mapToDirs().first().size
